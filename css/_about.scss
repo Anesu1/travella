@@ -1,0 +1,33 @@
+.about{
+    padding:5% 0;
+    .col-md-6{
+        margin:auto 0;
+        &:last-child{
+          
+            h5{
+                font-size:25px;
+                @media(max-width:1000px){
+                    font-size: 20px;
+                }
+                @media(max-width:767px){
+                    margin-top:5%;
+                }
+            }
+            h2{
+                font-size:45px;font-weight: bold;
+                span{
+                    font-weight: normal;
+                }
+                @media(max-width:1000px){
+                    font-size: 30px;
+                }
+            }
+            p{
+                line-height: 30px;
+                @media(max-width:1000px){
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
